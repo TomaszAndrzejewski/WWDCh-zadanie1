@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="<X-Ua-Compatybile" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Weekly WebDev Chellenge zadamie 1</title>
+	<meta name="description" content="Pierwsze zadanie w grupie Facebook -  Weekly WebDev Challenge">
+	<meta name="keywords" content="Weekly, WebDev, Challenge, Andrzejewski, Tomasz">
+	<meta name="author" content="Tomasz Andrzejewski">
+
+	<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body cz-shortcut-listen="true">
+
+	<div class="container">
+
+
+		<!-- HEADER WITH LOGO -->
+
+		<header>
+
+			<h1>
+				<img src="css/img/logo.png" alt="logo masterlab">
+			</h1>
+		</header>
+
+
+		<!-- COLUMNS -->
+
+		<main class="columns">
+
+			<!-- COLUMN lEFT -->
+
+			<div class="col-left">
+
+				<h2>Register Form</h2>
+
+				<div class="border">
+
+					<form action="" method="post" class="register">
+
+						<p>
+							<label>
+								<input name="Username" class="u-name" placeholder="Username" required autofocus>
+							</label>
+						</p>
+
+						<p>
+							<label>
+								<input type="password" name="psw" class="psw" placeholder="Password" required>
+							</label>
+						</p>
+
+						<p>
+							<label>
+								<input type="password" name="Cpsw" class="c-psw" placeholder="Confirm Password" required>
+							</label>
+						</p>
+
+						<p>
+							<label>
+								<input type="email" name="email" class="email" placeholder="Email" required>
+							</label>
+						</p>
+
+						<p>
+							<label>
+								<select required name="Yloc" class="y-loc">
+
+									<option value="" default class="y-l" selected>Your Location</option>
+
+									<option value="europe">Europe</option>
+
+									<option value="namerica">North America</option>
+
+									<option value="samerica">South America</option>
+
+									<option value="africa">Africa</option>
+
+									<option value="asia">Asia</option>
+
+									<option value="australia">Australia</option>
+
+									<option value="penguin">Penguin Land</option>
+								</select>
+							</label>
+						</p>
+
+						<p>
+							<label>
+								<input type="checkbox" class="checkbox" name="regulations" value="accept"> I have read and accept the terms of use.
+							</label>
+						</p>
+
+						<p>
+							<button type="submit" class="s-up button">Sign up</button>
+						</p>
+					</form>
+				</div>
+
+
+				<h2>Send Email</h2>
+
+				<div class="border">
+
+					<form action="" method="post" class="s-email">
+						<p>
+							<label>
+								<input name="Username" class="u-name" placeholder="Your Name" required autofocus>
+							</label>
+						</p>
+
+						<p>
+							<label>
+								<input type="email" name="email" class="email" placeholder="Your Email" required>
+							</label>
+						</p>
+
+						<p>
+							<textarea name="message" rows="10" cols="30">Type your message...</textarea>
+						</p>
+
+						<p>
+							<label>
+								<input type="checkbox" class="checkbox" name="sendcopy" value="accept"> Send a copy to my Email
+							</label>
+						</p>
+
+						<p>
+							<button type="submit" class="s-email button">Send Email</button>
+						</p>
+					</form>
+				</div>
+			</div>
+
+			<!-- COLUMN RIGHT -->
+
+			<div class="col-right">
+
+				<h2>Sign In Form</h2>
+
+				<div class="border">
+
+					<form action="" method="post" class="sign-in">
+
+						<p>
+							<label>
+								<input name="Username" class="u-name" placeholder="Username" required autofocus>
+							</label>
+						</p>
+
+						<p>
+							<label>
+								<input type="password" name="psw" class="psw" placeholder="Password" required>
+							</label>
+						</p>
+
+						<p>
+							<label>
+								<input type="checkbox" class="checkbox" name="memory" value="accept">Remember me
+							</label>
+						</p>
+
+						<p>
+							<button type="submit" class="s-in button">Sign in</button>
+						</p>
+					</form>
+				</div>
+
+				<h2>Recover Form</h2>
+
+				<div class="border">
+
+					<form action="" method="post" class="recover">
+						<p>
+							<label>
+								<input type="email" name="email" class="email" placeholder="Enter your Email" required>
+							</label>
+						</p>
+
+						<p>
+							<label>
+								<input type="tel" name="telNo" class="tel-no" placeholder="Enter your Phone number" required>
+							</label>
+						</p>
+
+						<p>
+							<button type="submit" class="send button">Send</button>
+						</p>
+
+						<p>
+							<button type="submit" class="done button">Done</button>
+						</p>
+					</form>
+				</div>
+
+
+				<h2>Suscribe Form</h2>
+
+				<div class="border">
+
+					<form action="" method="post" class="subscribe">
+						<p>
+							<label>
+								<input type="email" name="email" class="email" placeholder="Enter your Email" required>
+							</label>
+						</p>
+
+						<p>
+							<button type="submit" class="sub button">Subscribe</button>
+						</p>
+
+						<p>
+							<button type="reset" class="no-thx">No, Thanks</button>
+						</p>
+					</form>
+				</div>
+
+				<!-- FOOTER LOGO -->
+
+				<div class="footer-logo">
+					<img src="css/img/logo-footer.png" alt="logo footer">
+				</div>
+			</div>
+		</main>
+	</div>
+</body>
+
+</html>
